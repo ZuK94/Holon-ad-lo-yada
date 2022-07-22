@@ -82,6 +82,10 @@ main {
   padding: 1rem;
 }
 
+.accordion-button:not(.collapsed) {
+  color: #0d0d0d;
+}
+
 .video {
   display: flex;
   justify-content: center;

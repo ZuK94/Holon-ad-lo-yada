@@ -116,6 +116,9 @@ main {
   font-weight: 500;
   padding: 1rem;
 }
+.accordion-button:not(.collapsed) {
+  color: #0d0d0d;
+}
 
 // media CSS
 .video {
