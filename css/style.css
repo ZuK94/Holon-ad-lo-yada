@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+.bg-yellow {
+  background-color: #f2cc0f !important;
+}
+
+.bg-green {
+  background-color: #8cbf3f !important;
+}
+
+.bg-purple {
+  background-color: #9453a6 !important;
+}
+
+body {
+  background-color: #f2cc0f !important;
+  height: 100%;
+  z-index: -1;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: block;
+}
+
+.head-line {
+  margin-bottom: 1rem;
+  font-family: "Rubik Moonrocks";
+  font-size: 2.5rem;
+}
+
+div {
+  margin-bottom: 0.75rem;
+}
+
+button {
+  box-shadow: inset 0px 1px 0px 0px #e184f3;
+  background: linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);
+  background-color: #c123de;
+  border-radius: 6px;
+  border: 1px solid #a511c0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #9b14b3;
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar-nav {
+    height: 2.7rem;
+  }
+}
+.navbar-nav > a {
+  font-size: 1.25rem !important;
+  font-family: "Varela Round", sans-serif;
+  text-shadow: 0.5px 0.5px 1px rgb(88, 84, 84);
+}
+
+.active {
+  -webkit-text-decoration-line: underline !important;
+          text-decoration-line: underline !important;
+  -webkit-text-decoration-color: #8cbf3f !important;
+          text-decoration-color: #8cbf3f !important;
+  color: #8cbf3f !important;
+  font-weight: bold;
+}
+
+.navbar-nav > a:hover {
+  font-size: 1.3rem !important;
+}
+
+main {
+  padding-bottom: 6rem !important;
+  font-weight: 500;
+  padding: 1rem;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  color: #fff;
+}
+footer > .footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+footer > .footer-content h3 {
+  font-size: 0.8rem;
+  font-weight: 350;
+  line-height: 1.2rem;
+}/*# sourceMappingURL=style.css.map */
