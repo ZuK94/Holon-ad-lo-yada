@@ -68,6 +68,7 @@
         </nav>
       </header>
       <main class="mt-5 text-center">
+        <!-- contact form -->
         <h2 class="head-line">
           צרו איתנו קשר
         </h2>
@@ -75,22 +76,25 @@
         <form action="https://formspree.io/f/mzbonjpk"
         method="POST" class="w-50 center ">
           <div >
+            <!-- name input -->
           <div class="form-group j">
-            <label for="first-name">שם פרטי</label>
-            <input type="text" name="first name" class="form-control" id="first-name" placeholder="ישראל">
+            <label class="d-none d-md-block" for="first-name">שם פרטי</label>
+            <input type="text" name="first name" class="form-control" id="first-name" placeholder="ישראל" required>
           </div>
+          <!-- l-name input -->
           <div class="form-group">
-            <label for="last-name">שם משפחה</label>
-            <input type="text" name="last name" class="form-control" id="last-name" placeholder="ישראלי">
+            <label class="d-none d-md-block" for="last-name">שם משפחה</label>
+            <input type="text" name="last name" class="form-control" id="last-name" placeholder="ישראלי" required>
           </div>
+          <!-- email input -->
           <div class="form-group">
-            <label for="email">כתובת דוא"ל</label>
-            <input type="email"  name="Email"class="form-control" id="email" placeholder="israel@israeli.com">
+            <label class="d-none d-md-block" for="email">כתובת דוא"ל</label>
+            <input type="email"  name="Email"class="form-control text-start" id="email" placeholder="israel@israeli.com" required>
           </div>
-          
+          <!-- text-area input -->
           <div class="form-group">
-            <label for="text-area">הוסף הערות כאן:</label>
-            <textarea class="form-control" id="text-area" name="notes" rows="3"></textarea>
+            <label class="d-none d-md-block" for="text-area">הוסף הערות כאן:</label>
+            <textarea class="form-control" id="text-area" name="notes" rows="3" placeholder="הוסף הערות כאן:" required></textarea>
           </div>
           <div>
             <button type="submit" >שלח</button>
@@ -98,6 +102,7 @@
         </div>
         </form>
       </main>
+      <!-- footer -->
       <footer class="fixed-bottom">
         <div class="footer-content">
           <h3>עיריית חולון</h3>
